@@ -1,0 +1,86 @@
+/* 
+Site References 
+Material design resume template
+http://themeforest.net/item/sility-vcard-cv-resume-html-template/full_screen_preview/10911929
+
+Themeforest agency
+http://themeforest.net/theme_previews/11172304-spartan-agencyportfolio-psd-template?index=6&url_name=spartan-agencyportfolio-psd-template
+
+Template
+http://bdinfosys.com/demo/?item=materialx
+*/
+
+.dark-primary-color    { background: #512DA8; }
+.default-primary-color { background: #673AB7; }
+.light-primary-color   { background: #D1C4E9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #009688; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+
+/* logo styling */
+.logo-styling {
+height:80px;
+width:80px;
+border-radius: 40px;	
+margin: 10px;
+}
+
+
+/*sticky footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  /*color tabs*/
+  .tabs .tab.green-color a {
+      color: #388E3C;
+  }
+
+  /*tabs indicator*/
+  .tabs.green-tabs .indicator {
+  	background-color: #388E3C;
+  }
+
+  /*color tabs - secondary*/
+  .tabs .tab.blue-color a {
+      color: #448AFF;
+  }
+
+   /*tabs indicator - secondary*/
+  .tabs.blue-tabs .indicator {
+  	background-color: #448AFF;
+  }
+
+/*tabs margin*/
+.margin-top {
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
