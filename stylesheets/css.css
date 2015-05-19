@@ -1,3 +1,7 @@
+/*issues
+- tabs not working on small screen
+- article tabs ...*/
+
 /* 
 Site References 
 Material design resume template
@@ -64,15 +68,56 @@ body {
 margin-top: 20px;
 }
 
+/*blue font for links on cards*/
+.card .card-action.blue-font a {
+	color: #448AFF;
+}
 
+/*grey font*/
+.card .grey-font p {
+	color: #727272;
+}
 
+/*article card styling*/
+@media only screen and (max-width : 600px) {
+  .bio-image-container {
+    max-height: 285px;
+    overflow: hidden;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+  }
+  .bio-image {
+    width: 100%;
+  }
+}
 
+@media only screen and (min-width : 601px) {
+  .bio-image-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+/*    min-height: 285px;*/
+    max-height: 500px;
+    height: 100%;
+    float: left;
+  }
+  
+  .bio-content{
+    margin-right: 290px;
+    min-height: 260px;
+  }
+  .bio-card{
+/*    position: relative;*/
+    overflow: hidden;
+  }
+}
 
-
-
-
-
-
+.link-right{
+  text-align: right;
+  color: #448AFF;
+}
 
 
 
