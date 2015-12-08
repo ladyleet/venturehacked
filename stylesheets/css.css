@@ -119,7 +119,13 @@ margin-top: 20px;
   color: #448AFF;
 }
 
-
+.nav-wrapper {
+	li {
+		a:hover {
+			cursor: pointer;
+		}
+	}
+}
 
 
 
